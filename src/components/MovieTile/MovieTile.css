@@ -1,0 +1,48 @@
+.issueTile {
+    background-color: white;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+    box-shadow: 10px 8px #c4c4c4;
+}
+.contentStyle {
+    display: flex;
+    flex-direction: column;
+}
+.details {
+    display: flex;
+    align-items: center;
+}
+.detailStyle {
+        width: 50%;
+        display: flex
+}
+.imgStyle {
+    height: 120px;
+    width: 120px;
+}
+.captionBold {
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.caption {
+    font-size: 15px;
+    margin-right: 5px;
+}
+.titleStyle {
+    font-size: 18px;
+    font-weight: 600;
+}
+.linkStyle:link {
+    color: #50a3a2;
+  }
+.linkStyle:visited {
+    color: #50a3a2;
+  } 
+.linkStyle:hover {
+    color: gray;
+  }
+.linkStyle:active {
+    color: gray;
+  }
